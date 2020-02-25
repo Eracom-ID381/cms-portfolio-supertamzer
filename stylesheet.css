@@ -1,0 +1,136 @@
+/** BEGIN BASE **/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica', monospace;
+    font-size: 1.5vw;
+    cursor: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition:all 100ms ease-in-out;
+    -webkit-transition:all 100ms ease-in-out;
+    -moz-transition:all 100ms ease-in-out;
+    -o-transition:all 100ms ease-in-out;
+    -ms-transition:all 100ms ease-in-out;
+}
+
+a:hover {
+    cursor: none;
+}
+
+#crosshair-h {
+    width: 100%;
+    z-index: 1000;
+}
+
+#crosshair-v {
+    height: 100%;
+    z-index: 1000;
+
+}
+
+
+.hair {
+    position: fixed;
+    top:0; left:0;
+    margin-top: -3px;
+    margin-left: -2px;
+    background: transparent;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  nowrap;
+    /* justify-content: space-around; */
+    justify-content: flex-start;
+
+    height: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 4em;
+}
+
+/** BEGIN BTN STYLING **/
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: .7em;
+}
+
+.btn > a {
+    margin-bottom: .2em;
+    width: 100%;
+}
+
+.btn > a:hover::after {
+    float: right;
+}
+
+.btn > a:hover {
+    border-bottom: 2px black solid;
+}
+/** BEGIN BTN STYLING **/
+.img-project {
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+}
+
+
+.button-second {
+    display: inline;
+    visibility: hidden;
+}
+
+.button-third {
+    display: block;
+    visibility: hidden;
+}
+
+/** END BASE **/
+
+/** BEGIN STYLE **/
+
+.selected {
+    border-bottom: 2px black solid;
+    color: red;
+}
+
+div.btn.button-second > a.selected{
+    border-bottom: 2px black solid;
+    color: blue;
+}
+
+div.btn.button-third > a.selected{
+    border-bottom: 2px black solid;
+    color: green;
+}
+
+/** END STYLE **/
+
+/** STYLE IFRAME **/
+
+.img-iframe {
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+}
