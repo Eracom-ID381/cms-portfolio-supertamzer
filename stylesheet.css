@@ -65,7 +65,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding: 4em;
+    padding: 5em;
 }
 
 /** BEGIN BTN STYLING **/
@@ -93,7 +93,7 @@ a:hover {
 /** BEGIN BTN STYLING **/
 .img-project {
     display: inline-block;
-    padding: 0;
+    padding: 2em;
     width: 50%;
 }
 
@@ -131,5 +131,6 @@ div.btn.button-third>a.selected {
     height: 75%;
     justify-content: center;
     align-items: center;
-    padding: 6em;
+    padding: 7.5em;
+    margin-left: 5em;
 }
