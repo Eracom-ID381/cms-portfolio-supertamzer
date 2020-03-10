@@ -93,7 +93,7 @@ a:hover {
 /** BEGIN BTN STYLING **/
 .img-project {
     display: inline-block;
-    padding: 2em;
+    padding: 3em;
     width: 50%;
 }
 
@@ -132,5 +132,5 @@ div.btn.button-third>a.selected {
     justify-content: center;
     align-items: center;
     padding: 7.5em;
-    margin-left: 5em;
+    margin-left: 1em;
 }
