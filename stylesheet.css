@@ -135,4 +135,32 @@ div.btn.button-third>a.selected {
     margin-left: 1em;
 }
 
-@media only screen and (max/width 543px)
+@media only screen and (max-width: 900px) {
+    html, body {
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        padding: .7em;
+    }
+
+    .col {
+        flex-direction: row;
+    }
+
+    .btn {
+        flex-direction: column;
+    }
+
+    .img-project {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-iframe {
+        margin: 0;
+    }
+}
