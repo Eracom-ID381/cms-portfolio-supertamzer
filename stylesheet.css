@@ -166,6 +166,18 @@ div.btn.button-third>a.selected {
     }
 
     .img-iframe {
-        margin: 0;
+        height: 75%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5em;
     }
-}
+
+    .col {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 5em;
+        margin-left: 5em;
+    }
+
+    s
